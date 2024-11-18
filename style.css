@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: inherit;
+}
+
+.container {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.653);
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    margin: 1.5%;
+}
+
+#pic1 {
+    height: 35px;
+    width: 110px;
+    display: inline;
+}
+
+div.link {
+    font-size: larger;
+    font-family: sans-serif;
+    margin-left: 40%;
+}
+
+#link1,
+#link2 {
+    text-decoration: none;
+    color: black;
+}
+
+#link2 {
+    margin-left: 30px;
+    color: gray;
+}
+
+#link2:hover {
+    color: black;
+}
+
+.profile {
+    text-align: right;
+    margin-left: 25%;
+    display: flex;
+
+}
+
+#text2 {
+    font-size: larger;
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+#pic2 {
+    height: 20px;
+    width: 20px;
+    margin-top: 1%;
+}
+
+#pic3 {
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    margin-left: 100px;
+}
+
+#pic4 {
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.box {
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    gap: 50px;
+    border: 1px outset rgba(128, 128, 128, 0);
+    border-radius: 60px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.43);
+    margin: 20px;
+    padding: 10px;
+    width: 700px;
+    height: 40px;
+    margin-left: 34%;
+    text-align: left;
+}
+
+div.t1 {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+div.t2 {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+div.t3 {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+div.t4 {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.box .t1:hover,
+.box .t2:hover,
+.box .t3:hover,
+.box .t4:hover{
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+    border-radius: 15px;
+    transition: background-color 0.3 ease, box-shadow 0.3 ease, transform 0.3 ease, border-radius 0.3 ease,;
+}
+
+
+
+#subtext1,
+#subtext2,
+#subtext3,
+#subtext4 {
+    color: rgb(97, 97, 97);
+}
+
+.text3,
+.text4,
+.text5,
+.text6 {
+    font-weight: bold;
+}
+
+.pic5 {
+    height: 35px;
+    width: 35px;
+    margin-top: 2px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: center;
+}
+
+.card1 {
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 15px;
+}
+
+.pic6 {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.cardtext1 {
+    margin-top: 15px;
+}
+
+.subtext5 {
+    color: rgb(71, 71, 71);
+}
